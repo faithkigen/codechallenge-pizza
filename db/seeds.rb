@@ -5,6 +5,7 @@ restaurant = Restaurant.create(name: Faker::Restaurant.name, address: "69 W 55th
 # create some pizzas
 cheese = Pizza.create(name: "Cheese", ingredients: "Dough, Tomato Sauce, Cheese")
 pepperoni = Pizza.create(name: "Pepperoni", ingredients: "Dough, Tomato Sauce, Cheese, Pepperoni")
+veggie = pizza.create(name: "veggie", ingeredents: "Dough, Green bell peper, Red onion")
 
 # # associate pizzas with restaurants
 # sottocasa.pizzas << cheese
